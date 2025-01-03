@@ -1,0 +1,63 @@
+@import url('variables.css');
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    padding: 30px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+/* Image */
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* Messi et ses équipes */
+.mots_speciaux{
+    color: var(--primary-color);
+}
+
+/* Boutons réseaux */
+.btn_reseaux{
+    display: block;
+    padding: 10px;
+    margin: 20px;
+    color: var(--primary-color);
+    font-size: 30px;
+    border: 2px solid var(--primary-color);
+}
+
+/* Logo réseaux */
+.logo_reseaux{
+    display: inline-block;
+    color: var(--primary-color);
+    margin: 10px;
+    font-size: 30px;
+    margin: 20px;
+}
+
+/* Animations */
+a:hover{
+    color: var(--tertiary-color);
+}
+
+a:active{
+    color: var(--quaternary-color);
+}
+
+.btn_reseaux:hover{
+    transform: scale(1.1);
+}
