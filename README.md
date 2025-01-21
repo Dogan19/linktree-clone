@@ -10,9 +10,6 @@
 │   └── fonts.css             # Fichier des polices (si nécessaire)
 └── variables.css             # Fichier des variables CSS (inclus dans le fichier de styles)
 
-markdown
-Copier
-
 # Linktree de Messi
 
 Ce projet est une page HTML simple et interactive qui reprend le style et la structure de **Linktree**, dédiée à **Lionel Messi**, le célèbre joueur de football. Elle contient des liens vers ses réseaux sociaux ainsi qu'une courte présentation de ses équipes actuelles.
