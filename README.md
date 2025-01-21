@@ -1,6 +1,14 @@
 ## Structure du projet
 
-/Linktree-Messi │ ├── index.html # Page principale ├── /assets │ └── MESSI.jpg # Image de Lionel Messi ├── /styles │ ├── style.css # Fichier de style principal │ └── fonts.css # Fichier des polices (si nécessaire) └── variables.css # Fichier des variables CSS (inclus dans le fichier de styles)
+/Linktree-Messi
+│
+├── index.html                # Page principale
+├── /assets
+│   └── MESSI.jpg             # Image de Lionel Messi
+├── /styles
+│   ├── style.css             # Fichier de style principal
+│   └── fonts.css             # Fichier des polices (si nécessaire)
+└── variables.css             # Fichier des variables CSS (inclus dans le fichier de styles)
 
 markdown
 Copier
