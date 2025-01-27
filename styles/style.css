@@ -10,7 +10,8 @@
 
 body{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     height: 100vh;
     padding: 30px;
@@ -60,4 +61,10 @@ a:active{
 
 .btn_reseaux:hover{
     transform: scale(1.1);
+}
+
+/* Footer */
+
+footer{
+    padding: 20px;
 }
