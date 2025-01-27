@@ -39,6 +39,8 @@ img{
     color: var(--primary-color);
     font-size: 30px;
     border: 2px solid var(--primary-color);
+    animation: zoomInOut 4s infinite alternate, colorChange 5s infinite alternate; /* Micro-action sans interaction */
+    transition: background-color 1s ease; /* Micro-action sans interaction */
 }
 
 /* Logo réseaux */
@@ -48,9 +50,10 @@ img{
     margin: 10px;
     font-size: 30px;
     margin: 20px;
+    animation: bounce 2s infinite; /* Micro-action sans interaction */
 }
 
-/* Animations */
+/* Animations avec interactions*/
 a:hover{
     color: var(--tertiary-color);
 }
@@ -63,8 +66,48 @@ a:active{
     transform: scale(1.1);
 }
 
-/* Footer */
+/* Micro-actions sans interaction */
 
+/* Changement de couleur */
+@keyframes colorChange{
+    0% {
+      background-color: lightcoral;
+    }
+    50% {
+      background-color: lightgreen;
+    }
+    100% {
+      background-color: lightcoral;
+    }
+}
+
+/* Rebondit */
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+}
+
+/* S'élargit */
+@keyframes zoomInOut{
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+/* Footer */
 footer{
     padding: 20px;
 }
